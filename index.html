@@ -8,11 +8,13 @@
   <body>
     <h1>Edit GCODE for manual multi color prints</h1>
     <input type="file" id="file-input" accept=".gcode" />
+    <button onclick="loadGcode()">Load GCODE</button>
     <textarea id="text-area"></textarea>
-    <!-- <button onclick="replaceText()">Replace Text</button>
-    <button onclick="removeLines()">Remove Lines</button> -->
+    <!-- <button onclick="removeLines()">Remove Lines</button> -->
     <label> <input type="checkbox" id="checkbox1" checked /> Edit GCODE </label>
-    <label> <input type="checkbox" id="checkbox2" checked /> Remove T0, T1 </label>
+    <label>
+      <input type="checkbox" id="checkbox2" checked /> Remove T0, T1
+    </label>
     <!-- <button onclick="saveFile()">Save File</button> -->
     <button onclick="loadFile()">Edit GCODE</button>
     <script src="FileSaver.js"></script>
