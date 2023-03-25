@@ -29,7 +29,8 @@ function replaceText() {
   let lines = textArea.value.split("\n");
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].includes("; CP TOOLCHANGE LOAD")) {
-      lines[i] = "; CP TOOLCHANGE LOAD\nM0 Change Filament ;\nM108 ;";
+      lines[i] =
+        "; CP TOOLCHANGE LOAD\nM300 S40 P10 ; chirp\nM0 Change Filament ;\nM108 ;";
     }
   }
   textArea.value = lines.join("\n");
