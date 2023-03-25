@@ -22,6 +22,8 @@ and removes every "T0" and "T1".
 
 ![Printer_Settings_General](https://user-images.githubusercontent.com/71500391/227709417-6e402787-df2d-42ba-92cf-1a52b5e91934.jpg)
 
+![Printer_Settings_Custom_G-code](https://user-images.githubusercontent.com/71500391/227722368-93772a4b-0c29-43a8-af59-026e0be51057.jpg)
+
 ![Printer_Settings_Single_extruder_MM_setup](https://user-images.githubusercontent.com/71500391/227709421-16a973a2-9c48-459f-9f8e-43d224922f0c.jpg)
 
 Values for Prusa i3 MK3
