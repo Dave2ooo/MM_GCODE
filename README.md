@@ -15,3 +15,26 @@ and removes every "T0" and "T1".
 
 **Don't forget to disable the filament sensor.**
 
+
+## PrusaSlicer settings
+
+### Printer Settings
+
+![Printer_Settings_General](https://user-images.githubusercontent.com/71500391/227709417-6e402787-df2d-42ba-92cf-1a52b5e91934.jpg)
+
+![Printer_Settings_Single_extruder_MM_setup](https://user-images.githubusercontent.com/71500391/227709421-16a973a2-9c48-459f-9f8e-43d224922f0c.jpg)
+
+Values for Prusa i3 MK3
+
+### Filament Settings
+
+![Filament_Settings_Advanced](https://user-images.githubusercontent.com/71500391/227709424-c2be0685-fb07-46f0-8ebf-758213c5f8c9.jpg)
+
+### Print Settings
+
+![Print_Settings_Multiple_Extruders](https://user-images.githubusercontent.com/71500391/227709430-fad606d9-d1a2-4a37-895d-4b01bc57eac9.jpg)
+
+
+
+
+
