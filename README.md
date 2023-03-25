@@ -35,6 +35,11 @@ Values for Prusa i3 MK3
 ![Print_Settings_Multiple_Extruders](https://user-images.githubusercontent.com/71500391/227709430-fad606d9-d1a2-4a37-895d-4b01bc57eac9.jpg)
 
 
+### Wipe Tower
+
+![Purging_volumes](https://user-images.githubusercontent.com/71500391/227714090-ff16dcd9-2dd5-49d7-bfa2-5c223859eb3b.png)
+
+![Wipe_tower_Purging_volume](https://user-images.githubusercontent.com/71500391/227714049-1e14c109-95c7-41c8-bf69-9d80a2d3f3c5.jpg)
 
 
 
