@@ -3,7 +3,7 @@ let textArea = document.getElementById("text-area");
 
 var fileName;
 
-function loadFile() {
+function loadGcode() {
   let file = fileInput.files[0];
   let reader = new FileReader();
   reader.readAsText(file);
@@ -11,12 +11,13 @@ function loadFile() {
     textArea.value = reader.result;
 
     fileName = file.name;
-    fileName = fileName.split(".")[0];
-
-    check();
-
-    saveFile();
+    fileName = fileName.slice(0, -6);
   };
+}
+
+function loadFile() {
+  check();
+  saveFile();
 }
 
 function saveFile() {
