@@ -17,13 +17,12 @@ function loadGcode() {
 
 function loadFile() {
   check();
-  saveFile();
 }
 
 function saveFile() {
   let textToSave = textArea.value;
   let blob = new Blob([textToSave], { type: "text/plain;charset=utf-8" });
-  saveAs(blob, fileName + "_cleaned.gcode");
+  saveAs(blob, fileName + "_edited.gcode");
 }
 
 function replaceText() {
