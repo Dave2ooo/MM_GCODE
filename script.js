@@ -30,7 +30,7 @@ function replaceText() {
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].includes("; CP TOOLCHANGE LOAD")) {
       lines[i] =
-        "; CP TOOLCHANGE LOAD\nM300 S1000 P200 ; chirp\nM0 Change Filament ;\nM108 ;";
+        "; CP_TOOLCHANGE_LOAD_EDITED\nM300 S1000 P200 ; chirp\nM0 Change Filament ;\nM108 ;";
     }
   }
   textArea.value = lines.join("\n");
