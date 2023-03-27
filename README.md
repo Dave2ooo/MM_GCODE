@@ -4,19 +4,19 @@ This is how you print multi-color prints without an automatic filament changer.
 
 I use a Prusa i3 Mk3S+ with PrusaSlicer 2.5.0.
 
-## Printer settings
+## 1 Printer settings
 
 Turn of the filament sensor on your printer.
 
 Menu -> Settings -> Fil. sensor -> [Off]
 
-## PrusaSlicer settings
+## 2 PrusaSlicer settings
 
 Select the **Print Settings**, **Filament** and **Printer** that you want the new profiles to be based on.
 
 ![Before](https://user-images.githubusercontent.com/71500391/227737885-51774879-1ed2-42fc-b0ca-dfc7285b26a1.jpg)
 
-### Printer Settings
+### 2.1 Printer Settings
 
 Apply the following settings.
 
@@ -26,11 +26,18 @@ Apply the following settings.
 
 ![Printer_Settings_Single_extruder_MM_setup](https://user-images.githubusercontent.com/71500391/227709421-16a973a2-9c48-459f-9f8e-43d224922f0c.jpg)
 
+| Parameter    | Description |
+|---------------------------|-----------------------------------------------------------------|
+| Cooling tube position     | Distance between the nozzle and the center of the cooling tube  |
+| Cooling tube length       | Length of the cooling tube                                      |
+| Filament parking position | Distance between the nozzle and the extruder gear               |
+| Extra loading distance    | Extra distance when loading                                     |
+
 These are values for a Prusa i3 MK3S+.
 
 Save the settings and give them a proper name e.g. * *"Prusa i3 - MM"* *.
 
-### Filament Settings
+### 2.2 Filament Settings
 
 Set the number of **cooling moves** to one to save some time when changing filament.
 
@@ -38,7 +45,7 @@ Set the number of **cooling moves** to one to save some time when changing filam
 
 Save the settings and give them a proper name e.g. * *"PLA - Standard - MM"* *.
 
-### Print Settings
+### 2.3 Print Settings
 
 Enable the **wipe tower**.
 
@@ -48,7 +55,7 @@ Set the **brim width** to zero (optionally).
 
 Save the settings and give them a proper name e.g. * *"0.3mm - MM"* *.
 
-### Purging volumes
+### 2.4 Purging volumes
 
 I like to decrease the **Purging volumes**.
 
@@ -56,7 +63,7 @@ I like to decrease the **Purging volumes**.
 
 ![Wipe_tower_Purging_volume](https://user-images.githubusercontent.com/71500391/227714049-1e14c109-95c7-41c8-bf69-9d80a2d3f3c5.jpg)
 
-## Edit GCODE
+## 3 Edit GCODE
 
 Export G-code from PrusaSlicer.
 
@@ -72,12 +79,12 @@ Follow the steps in the image.
 
 This adds a pause to every time a filament is loaded.
 
-## Print
+## 4 Print
 
 Save the new G-code file to a SD card and print as usual.
 
 When the print pauses:
 1. Remve the loaded filament.
-2. Push in the new filament.
-3. Press the knob to contimue.
+2. Insert the new filament.
+3. Press the knob to load the filament and contimue printing.
 
