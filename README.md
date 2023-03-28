@@ -1,12 +1,16 @@
-# This is how you print multi-color prints without an automatic filament changer.
+# How to print multi-color prints without automatic filament changer
 
-I use a Prusa i3 Mk3S+ with PrusaSlicer 2.5.0.
+This guide shows you the settings ans process for multi-color prints using PrusaSlicer 2.5.0.
+
+This is only tested on a Prusa i3 MK3S+
 
 ## 1 Printer settings
 
-Turn of the filament sensor on your printer.
+Turn off the filament sensor on your printer.
 
 Menu -> Settings -> Fil. sensor -> [Off]
+
+*for Prusa i3 MK3*
 
 ## 2 PrusaSlicer settings
 
@@ -51,7 +55,7 @@ Set the **brim width** to zero (optionally).
 
 ![Print_Settings_Multiple_Extruders](https://user-images.githubusercontent.com/71500391/227709430-fad606d9-d1a2-4a37-895d-4b01bc57eac9.jpg)
 
-Save the settings and give them a proper name e.g. * *"0.3mm - MM"* *.
+Save the settings and give them a proper name e.g. *"0.3mm - MM"*.
 
 ### 2.4 Purging volumes
 
@@ -85,4 +89,9 @@ When the print pauses:
 1. Remve the loaded filament.
 2. Insert the new filament.
 3. Press the knob to load the filament and contimue printing.
+
+
+## 5 Troubleshoot
+
+If you have any troubles or comments feel free to create an [issue](https://github.com/Dave2ooo/MM_GCODE/issues).
 
