@@ -1,6 +1,4 @@
-# MM_GCODE
-
-This is how you print multi-color prints without an automatic filament changer.
+# This is how you print multi-color prints without an automatic filament changer.
 
 I use a Prusa i3 Mk3S+ with PrusaSlicer 2.5.0.
 
